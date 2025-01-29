@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaNodeJs } from "react-icons/fa";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -12,8 +13,8 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-teal-300' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
+    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
   },
   {
     id: nanoid(),

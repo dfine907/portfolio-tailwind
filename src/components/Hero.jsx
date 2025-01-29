@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
     <div className='bg-teal-100 py-24'>
-        <div className='mx-auto max-w-7xl px-8 grid md:grid-cols-2 items-center gap-8'>
+        <div className='align-element px-8 grid md:grid-cols-2 items-center gap-8'>
             <article>
                 <h1 className='text-6xl font-bold tracking-wider'>
                     I'm Dina
