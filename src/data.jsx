@@ -10,12 +10,7 @@ export const links = [
 ];
 
 export const skills = [
-  {
-    id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
-    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
-  },
+
   {
     id: nanoid(),
     title: 'Javascript',
@@ -24,9 +19,21 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-teal-300' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'NODE',
+    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
+    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
+  },
+  {
+    id: nanoid(),
+    title: 'NODE',
+    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
+    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
+  },
+  {
+    id: nanoid(),
+    title: 'NODE',
+    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
+    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
   },
 ];
 

@@ -10,8 +10,7 @@ const App = () => {
      <Navbar />
      <Hero />
      <Skills />
-     <SkillsCard />
-     <SectionTitle />
+     
      </>
   
   )
