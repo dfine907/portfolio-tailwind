@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Skills from "./components/Skills"
 import SkillsCard from "./components/SkillsCard"
 import SectionTitle from "./components/SectionTitle"
+import About from "./components/About"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
      <Navbar />
      <Hero />
      <Skills />
+     <About />
      
      </>
   
