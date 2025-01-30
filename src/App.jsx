@@ -1,9 +1,8 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Skills from "./components/Skills"
-import SkillsCard from "./components/SkillsCard"
-import SectionTitle from "./components/SectionTitle"
 import About from "./components/About"
+import Projects from "./components/Projects"
 
 const App = () => {
   return (
@@ -12,6 +11,7 @@ const App = () => {
      <Hero />
      <Skills />
      <About />
+     <Projects />
      
      </>
   

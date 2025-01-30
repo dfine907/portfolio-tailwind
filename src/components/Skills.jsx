@@ -12,6 +12,9 @@ const Skills = () => {
             return <SkillsCard key={skill.id} {...skill}/>
           })}
         </div>
+        <a href="#top" className="text-teal-700 mt-10">
+            Back to Top
+          </a>
       </section>
     </>
   )

@@ -20,7 +20,7 @@ const About = () => {
             and over 20 years of problems solving skills. I thrive on
             creating solutions with a focus on developing APIs. <strong>Let's make an IMPACT! </strong>
           </p>
-          <a href="#top" className="text-black mt-20 py-8">
+          <a href="#top" className="text-teal-700 mt-20 py-8">
             Back to Top
           </a>
         </article>

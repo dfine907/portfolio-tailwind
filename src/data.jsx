@@ -1,11 +1,12 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
+import { RiNextjsLine, RiJavascriptLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
+  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
@@ -14,26 +15,26 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-teal-300' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    icon: <RiJavascriptLine className='h-16 w-16 text-teal-300' />,
+    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
   },
   {
     id: nanoid(),
-    title: 'NODE',
-    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
-    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
+    title: 'ReactJS',
+    icon: <FaReact className='h-16 w-16 text-teal-300' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
-    title: 'NODE',
+    title: 'NodeJS',
     icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
-    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
+    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming.',
   },
   {
     id: nanoid(),
-    title: 'NODE',
-    icon: <FaNodeJs className='h-16 w-16 text-teal-300' />,
-    text: 'Proficiency in developing robust and scalable server-side applications with a focus on asynchronous programming',
+    title: 'NextJS',
+    icon: <RiNextjsLine className='h-16 w-16 text-teal-300' />,
+    text: 'Adept at building performant Next.js applications, leveraging SSR, API routes, and its powerful routing capabilities for optimal user experiences.',
   },
 ];
 
