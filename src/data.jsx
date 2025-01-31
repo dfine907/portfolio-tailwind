@@ -39,14 +39,7 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
+  
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -62,5 +55,13 @@ export const projects = [
     github: 'https://github.com/john-smilga',
     title: 'third project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://live.staticflickr.com/65535/54297646698_a22fa50ff6.jpg',
+    url: 'https://dfine907.github.io/bullseye_game/',
+    github: 'https://github.com/dfine907/bullseye_game',
+    title: 'Bulls Eye Game',
+    text: 'Intelligent AI, seamless controls, and responsive mouse tracking combine to create an immersive fantasy adventure where every move counts.',
   },
 ];

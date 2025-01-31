@@ -11,14 +11,7 @@ const About = () => {
         <article>
           <SectionTitle text="Who? Me?" />
           <p className="text-slate-600 mt-8 mb-6 leading-loose">
-            I'm a team playing full-stack software developer with
-            nearly 4 years of hands-on experience in{' '}
-            <strong>
-              JavaScript, ReactJS, NextJS, MongoDB, Mongoose, Express,
-              NodeJS and Tailwind{' '}
-            </strong>{' '}
-            and over 20 years of problems solving skills. I thrive on
-            creating solutions with a focus on developing APIs. <strong>Let's make an IMPACT! </strong>
+          As a team-oriented full-stack software developer, I bring four years of hands-on experience with JavaScript, React, Next.js, MongoDB, Mongoose, Express, Node.js, API development and Tailwind CSS. My background also includes over 20 years of problem-solving skills and military service as a US Navy veteran. <strong>Let's make an IMPACT! </strong>
           </p>
           <a href="#top" className="text-teal-700 mt-20 py-8">
             Back to Top
