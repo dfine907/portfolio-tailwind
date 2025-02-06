@@ -58,7 +58,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://live.staticflickr.com/65535/54297646698_a22fa50ff6.jpg',
+    img: 'https://res.cloudinary.com/dlqpgw2iw/image/upload/v1738342705/bullseye_lhdzjg.png',
     url: 'https://dfine907.github.io/bullseye_game/',
     github: 'https://github.com/dfine907/bullseye_game',
     title: 'Bulls Eye Game',
